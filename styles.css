@@ -1,0 +1,126 @@
+@media(max-width:1440px){
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:  hsl(0, 0%, 95%);
+}
+#outercontainer{
+    position: relative;
+    margin: 10em auto;
+    max-width: 1440px;
+    width: 70%;
+    /* height: fit-content; */
+    display: flex;
+    align-items: stretch;
+    padding: 1em;
+    margin-bottom: 0em;
+    overflow: hidden;
+}
+.card1{
+    width: 33%;
+    /* height: fit-content; */
+    padding: 0.9em;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0.3rem 0 0 .3rem;
+}
+.card2{
+    width: 33%;
+    /* height: fit-content; */
+    padding: 0.9em;
+    background-color: hsl(184, 100%, 22%);
+}
+.card3{
+    width: 33%;
+    border-radius: 0 .3rem .3rem 0;
+    /* height: fit-content;  */
+    padding: 0.9em;
+    background-color: hsl(179, 100%, 13%);
+}
+img{
+    /* width: 28%; */
+    padding: 0.5em;
+    margin: 1em 1em 0.2em 1.3em;
+}
+h2{
+    font-size: 2rem;
+    margin: 0.4em 0.9em 0 1.1em;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    font-size: .9rem;
+    line-height: 1.5em;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0 1em .4em;
+    padding: 1.5em;
+}
+button{
+    border: none;
+    font-size: .9rem;
+}
+.btn{
+    margin: 1.5em 1em 0.9em 2em;
+    padding: 0.7em 1.1em;
+    border-radius: 1.125rem;
+    font-size: 0.9rem;
+    background-color:hsl(0, 0%, 95%); ;
+}
+#btn1{
+    color: hsl(31, 77%, 52%);
+}
+#btn1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 95%);
+    border:1px solid hsla(0, 0%, 100%, 0.75);
+}
+#btn2 {
+    color: hsl(184, 100%, 22%);
+}
+#btn2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 95%);
+    border:1px solid hsla(0, 0%, 100%, 0.75);
+}
+#btn3{
+    color:hsl(179, 100%, 13%);
+}
+#btn3:hover{
+    background-color:hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 95%);
+    border:1px solid hsla(0, 0%, 100%, 0.75);
+}
+}
+@media (max-width:700px) {
+    #outercontainer{
+        display: block;
+        width: 95%;
+        margin: 4em auto;
+        padding: 1em;
+    }
+    .card1{
+        width: 100%;
+        padding: 0.9em;
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 0.4em 0.4em 0 0;
+    }
+    .card2{
+        width: 100%;
+        padding: 0.9em;
+        background-color: hsl(184, 100%, 22%);
+    }
+    .card3{
+        width: 100%;
+        border-radius: 0em 0em 0.4em 0.4em;
+        padding: 0.9em;
+        background-color: hsl(179, 100%, 13%);
+    }
+    p{
+        margin-bottom:0;
+    }
+    .btn{
+        margin: 0.1em 1.4em 1.4em 2.5em;
+        
+    }
+}
